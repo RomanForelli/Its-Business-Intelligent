@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>ITS business Intelligence</title>
 </head>
@@ -23,8 +24,9 @@
         </nav>
         <section>
             <div class="section1">
-                 <h2> ¿ Que es ITs ? </h2>
-                 <p> ITS es la integración de la tecnología aplicada al
+                 <h2 data-aos="fade-up" data-aos-duration="3000"> ¿ Que es ITs ? </h2>
+                 <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                     ITS es la integración de la tecnología aplicada al
                      negocio para obtener y crear, desde la
                      información y el relevamiento de data de
                      mercado, Indicadores de Trade Marketing, que
@@ -43,7 +45,7 @@
         </section>
         <section>
             <div class="section2">
-                <h3> Ejemplo Practico:</h3>
+                <h3 data-aos="fade-up" data-aos-duration="3000"> Ejemplo Practico:</h3>
                 <iframe  src="https://www.youtube.com/embed/DbmBEo-8me4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>  
         </section>
@@ -54,6 +56,10 @@
                 <a href="pages/contacto.html" target="_blanc" class="foot__menu"> contactenos </a>
             </div>    
         </footer>
-    </div>    
+    </div> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>   
 </body>
 </html>
