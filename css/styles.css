@@ -36,12 +36,15 @@ body {
 
 header {
     grid-area: header;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     
         
 }
 
 header img {
-    height: 70px;
+    height: 100%;
     width: 100%;
     
     
@@ -67,6 +70,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav ul li {
@@ -145,7 +149,7 @@ nav ul li a:hover {
 }
 
 .section2 iframe {
-    width: 700px;
+    width: 800px;
     height: 500px;
     margin: 10px;
     transition: all 3s;
@@ -323,53 +327,157 @@ footer {
 
 /*--- media queris ---*/
 
+
 @media ( max-width: 768px) {
- nav {
-    margin: 0px;
-    padding: 5px;
-    width: 768px;
- }
- .nav__menu {
-     margin: 0px;
-     padding: 10px;
-    
-     
-}
-nav ul li {
-    margin: 10px;
-    
-}
+    nav {
+       display: flex;
+       margin: 0px;
+       padding: 5px;
+       max-width: 100%;
+       justify-content: center;
+       align-items: center;
+   
+    }
+   
+    .nav__menu {
+        margin: 0px;
+        padding: 10px;
+        max-width: 100%;
+       
+        
+   }
+   nav ul li {
+       margin: 10px;
+       max-width: 100%;
+      
+   }
+   
+   nav ul li a {  
+       padding: 10px;
+       font-size: 15px;
+       border-radius: 10px;
+       font-weight: bold;
+   
+   }
+   
+   .section1 {
+       margin: 0px ;
+       padding: 5px;
+       max-width: 100%;
+   }
+   .section1 p {
+       margin: 0px;
+       padding: 5px;
+   }
+   
+   .section1 h2 {
+       font-size: 60px;
+       font-weight: bold;
+       padding: 10px;
+   }    
+       
+   .section2 iframe {
+       max-width: 90%;
+       max-height: 90%;
+   }
+   
+   
+   .foot {
+       margin: 20px 10px 10px 10px;
+   }
+   .foot__menu {
+       margin: 10px;
+       padding: 10px;
+       max-width: 100%;
+       
+   
+   }
+   
+   .foot a {
+       padding: 10px;
+       font-size: 15px;
+       border-radius: 10px;
+       font-weight: bold;
+       
+   }
+   
+   /*--- contacto ---*/
+   
+   .contacto1 {
+       width: 100%;
+       margin: 0px;
+   }
+   
+   .contacto1 h2 {
+       color: white;
+       font-size: 50px;
+       font-weight: bold;
+       padding: 10px;
+       
+   
+   }
+   
+   }
+   
+   @media (min-width: 769px) and ( max-width: 1024px) {
+       nav {
+          margin: 0px;
+          padding: 5px;
+          width: 100%;
+       }
+       .nav__menu {
+           margin: 0px;
+           padding: 5px;
+           width: 100%;
+          
+           
+      }
+      nav ul li {
+          margin: 10px;
+          width: 100%;
+          
+      }
+      
+      .section1 {
+           margin: 0px;
+           padding: 15px;
+           max-width: 100%;
+        }
+   
+      .section1 p {
+          margin: 0px 10px;
+          padding: 15px;
+          width: 100%;
+        }
+      
+      
+      .section2 iframe {
+          max-width: 90%;
+          max-height: 90%;
+        }
+      
+      
+      .foot {
+          margin: 20px 10px 10px 10px;
 
-.section1 p {
-    margin: 0px 70px;
-}
-
-
-.section2 iframe {
-    width: 100%;
-}
-
-
-.foot {
-    margin: 20px 10px 10px 10px;
-}
-
-
-
-/*--- contacto ---*/
-
-.contacto1 {
-    width: 100%;
-    margin: 0px;
-}
-
-.contacto1 h2 {
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    padding: 10px;
-    
-
-}
-
+        }
+      
+      
+      
+      /*--- contacto ---*/
+      
+      .contacto1 {
+          width: 100%;
+          margin: 0px;
+        }
+      
+      .contacto1 h2 {
+          color: white;
+          font-size: 50px;
+          font-weight: bold;
+          padding: 10px;
+          
+      
+    }
+      
 }
