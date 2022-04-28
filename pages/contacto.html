@@ -14,8 +14,8 @@
 </head>
 <body>
     <div class="contenedor container-fluid">
-        <header class="row">
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="inicio">
+        <header class="row sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="inicio">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="../images/logito.png" alt="logotipo" width="75" height="65">
@@ -46,26 +46,31 @@
             </nav>
             </header>
         <section>
-            <div class="contacto1">
-                <h2> Formulario de contacto</h2>
+            <div class="container" id="contenedor-formulario">
+                <div id="titulo-formulario" class="text-center mb-4">
+                    <h2 class="m-3"> Formulario de contacto</h2>
+                    <p>Estamos para mejorar sus negocios</p>
+                </div>
                 <form>
-                    <fieldset>
-                        <legend>
-                            Complete con sus datos
-                        </legend>
-                            <label for="nombre"> Nombre</label>
-                            <input type="text" name="nombre" placeholder="Nombre" required>
-                            <label for="email"> Email</label>
-                            <input type="email" name="email" placeholder="Email" required>
-                            <label for="number"> Numero de telefono</label>
-                            <input type="number" name="numero" placeholder="Numero de telefono" required>
-                            <Label> Deje su Consulta:</Label>
-                            <textarea name="mensaje" placeholder="Deje su Consulta Aqui" required></textarea>
-                            <div class="botones">
-                                <input type="submit" value="Enviar">
-                                <input type="reset" Value="Limpiar">
-                            </div>
-                    </fieldset>
+                    <div class="mb-3">
+                        <label for="nombrecompleto" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control"  placeholder="Lionel Messi" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Direccion de Email</label>
+                        <input type="email" class="form-control"  placeholder="nombre@ejemplo.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Telefono</label>
+                        <input type="number" class="form-control" placeholder="555-5555 ">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comentario" class="form-label">Comentario</label>
+                        <textarea class="form-control" rows="5" placeholder="Deje su consulta aqui" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-light"> Enviar </button>
+                    </div>
                 </form>
             </div>
         </section> 

@@ -1,14 +1,31 @@
 .contenedor {
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: linear-gradient(rgba(0, 0, 0, 0.752), rgba(0, 0, 0, 0.752)), url(../images/imgprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
     font-family: 'IBM Plex Serif', serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
+   
     
 } 
+h1 {
+    font-size: 80px;
+}
 
+h2 {
+    font-size: 50px;
 
+}
+
+h3 {
+    font-size: 40px;
+}
+
+#inicio {
+    background-color: rgba(255, 255, 255, 0.55) !important;
+    
+}
 
 nav ul li a {
     text-decoration: none;
@@ -28,7 +45,8 @@ nav ul li a:hover {
     border-color: black;
    
 
-}    
+}  
+
 
 footer {
     margin: 20px 0px 20px 0px;
@@ -40,7 +58,21 @@ footer img {
     margin: 10px 0px 0px 0px;
 }
 
+.section1 {
+   
+    text-align: center;
+}
+.section1 p {
+    font-size: 22px;
+}
+
+
 .section2 iframe {
     width: 60%;
     height: 30rem;
+}
+
+#contenedor-formulario {
+    
+    max-width: 500px;
 }
