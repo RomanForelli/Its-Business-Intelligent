@@ -1,11 +1,3 @@
-* {
-    
-    font-size: 62;
-    padding: 0;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
 /*----principal----*/
 
 .cuerpo {
@@ -328,7 +320,7 @@ footer {
 /*--- media queris ---*/
 
 
-@media ( max-width: 768px) {
+/*-- @media ( max-width: 768px) { 
     nav {
        display: flex;
        margin: 0px;
@@ -401,7 +393,7 @@ footer {
        
    }
    
-   /*--- contacto ---*/
+   
    
    .contacto1 {
        width: 100%;
@@ -464,7 +456,7 @@ footer {
       
       
       
-      /*--- contacto ---*/
+      
       
       .contacto1 {
           width: 100%;

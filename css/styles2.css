@@ -1,0 +1,46 @@
+.contenedor {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family: 'IBM Plex Serif', serif;
+    color: white;
+    font-size: 1.2rem;
+    
+} 
+
+
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 25px;
+    
+
+}
+
+nav ul li a:hover {
+    text-shadow: 4px 4px 4px black;
+    transform: scale(1.1);
+    transition: all 1s;  
+    border-color: black;
+   
+
+}    
+
+footer {
+    margin: 20px 0px 20px 0px;
+    font-size: 1.5rem;
+
+}
+
+footer img {
+    margin: 10px 0px 0px 0px;
+}
+
+.section2 iframe {
+    width: 60%;
+    height: 30rem;
+}
