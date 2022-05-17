@@ -20,7 +20,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light" id="inicio">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="../index.html">
-                        <img src="../images/logito.png" alt="logotipo" width="75" height="65">
+                        <img src="../images/itslogo2.png" alt="logotipo" width="240" height="65">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -31,8 +31,8 @@
                                <a href="../index.html" class="nav-link active text-uppercase" aria-current="page" > Inicio</a>
                             </li>
                             <li class="nav-item">
-                               <a href="servicios.html" class="nav-link active text-uppercase" aria-current="page" > Servicios</a>
-                            </li>
+                                <a href="servicios.html" class="nav-link active text-uppercase" aria-current="page" > Servicios</a>
+                             </li>
                             <li class="nav-item">
                                <a href="soluciones.html" class="nav-link active text-uppercase" aria-current="page" > Soluciones</a>
                             </li>
@@ -48,47 +48,73 @@
             </nav>
             </header>
         <section>
-            <div class="container" id="contenedor-formulario">
-                <div id="titulo-formulario" class="text-center mb-4">
-                    <h1 class="m-3"> Formulario de contacto</h2>
-                    <p>Estamos para mejorar sus negocios</p>
-                </div>
-                <form>
-                    <div class="mb-3">
-                        <label for="nombrecompleto" class="form-label">Nombre Completo</label>
-                        <input type="text" class="form-control"  placeholder="Lionel Messi" required>
+                <div class="row contacto">
+                    <div id="titulo-formulario" class="text-center mb-4">
+                        <h1 class="m-3"> Formulario de contacto</h2>
+                        <p>Estamos para mejorar sus negocios</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Direccion de Email</label>
-                        <input type="email" class="form-control"  placeholder="nombre@ejemplo.com" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="telefono" class="form-label">Telefono</label>
-                        <input type="number" class="form-control" placeholder="555-5555 ">
-                    </div>
-                    <div class="mb-3">
-                        <label for="comentario" class="form-label">Comentario</label>
-                        <textarea class="form-control" rows="5" placeholder="Deje su consulta aqui" required></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <button type="submit" class="btn btn-light"> Enviar </button>
-                    </div>
-                </form>
-            </div>
+                    <form id="contenedor-formulario" class="">
+                        <div class="mb-3">
+                            <label for="nombrecompleto" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Direccion de Email</label>
+                            <input type="email" class="form-control"  required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Telefono</label>
+                            <input type="number" class="form-control" required >
+                        </div>
+                        <div class="mb-3">
+                            <label for="comentario" class="form-label">Comentario</label>
+                            <textarea class="form-control" rows="5" placeholder="Deje su consulta aqui" required></textarea>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-outline-light btn-lg"> Enviar </button>
+                        </div>
+                    </form>
+                </div> 
         </section> 
-        <footer class="row m-2 pb-4">
-            <div class="d-flex justify-content-around align-items-center">
-                <a href="../index.html" class="foot__menu btn btn-outline-light text-uppercase"> Inicio </a>
-                <div class= "d-flex flex-column bd-highlight justify-content-center align-items-center text-center text-light">
-                <a class="text-center text-light"> Todos los derechos reservados</a> 
-                <a class="text-center text-light"> Its business Intelligence</a>
+        <footer>
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="d-flex flex-column col-lg-4 col-sm-12">
+                    <img src="../images/itslogo2.png" alt="logotipo" width="240" height="65">
+                    <span class="text-center"> Somos una empresa que se dedicada a integrar la tecnologia a los negocios</span> 
                 </div>
-                <a href="pages/contacto.html" target="_blanc" class="foot__menu btn btn-outline-light text-uppercase"> contacto </a>
-            </div>
-            <!-- <div >
-                <img src="images/itsheader.png">   
-            </div> -->
-        </footer>  
+                <div class="d-flex flex-column col-lg-4 col-sm-12">
+                    <a href="../index.html" class="foot__menu"> Inicio </a>
+                    <a href="servicios.html" class="foot__menu"> Servicios </a>
+                    <a href="soluciones.html" class="foot__menu"> Soluciones </a>
+                    <a href="nosotros.html" class="foot__menu"> Nosotros </a>
+                    <a href="#" class="foot__menu"> Contacto </a>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div>
+                        <p>FERNANDO MARCHIANO</p>
+                        <p>DIRECTOR COMERCIAL</p>
+                        <p>ITS BUSINNES INTELLIGENCE</p>
+                        <p>Marchianof@intellitradestore.com</p>
+                        <p>+54 9 11 5699 4215</p>
+                        
+                    </div>
+                    <div>
+                        <a href>
+                        <img src="../images/whatsapp.png" alt="whatsapp" href="" class="redes">
+                        </a>
+                        <a href>
+                        <img src="../images/facebook.png" alt="facebook" href="" class="redes">
+                        </a>
+                        <a href>
+                        <img src="../images/instagram.png" alt="instagram" href="" class="redes">
+                        </a>
+                        <a href>
+                        <img src="../images/linkedin.png" alt="linkedin" href="" class="redes">
+                        </a>
+                    </div>
+                </div>    
+            </div>           
+        </footer>   
     </div> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
