@@ -118,7 +118,8 @@ footer {
 .tarjetas {
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   background-size: cover;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-top: 20px; }
   .tarjetas .card {
     color: black;
     border-style: none;
@@ -129,11 +130,11 @@ footer {
     height: 100px; }
 
 .servicios {
-  background: linear-gradient(rgba(0, 0, 0, 0.005), rgba(0, 0, 0, 0.005)), url(../images/fondo3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.626), black), url(../images/businn.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: black; }
+  color: white; }
 
 .contacto {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)), url(../images/imgprincipal.jpg);
@@ -142,20 +143,34 @@ footer {
   background-attachment: fixed; }
 
 .soluciones {
-  color: black; }
+  color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.826), rgba(0, 0, 0, 0.826)), url(../images/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white; }
 
 .soluciones2 {
-  color: black;
+  color: white;
   margin-left: auto;
   margin-right: auto; }
   .soluciones2 p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 0px 25px; }
   .soluciones2 a {
-    font-size: 0.9rem; }
+    font-size: 1rem; }
   .soluciones2 h3 {
     text-align: center;
-    font-size: 1.5rem; }
+    font-size: 1.7rem; }
+
+.soluciones3 {
+  color: black;
+  justify-content: center;
+  padding: 10px;
+  text-align: center; }
+  .soluciones3 img {
+    width: 300px;
+    height: 300px; }
 
 .carrusel {
   max-width: 1100px;
