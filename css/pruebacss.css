@@ -130,17 +130,24 @@ footer {
     height: 100px; }
 
 .servicios {
-  background: linear-gradient(rgba(0, 0, 0, 0.626), black), url(../images/businn.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.456), rgba(0, 0, 0, 0.455)), url(../images/servicios4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: white; }
+  .servicios p {
+    font-size: 1.2rem; }
+  .servicios .nuestros__servicios {
+    max-width: 80%;
+    margin: auto; }
 
 .contacto {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)), url(../images/imgprincipal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+  .contacto p {
+    font-size: 1.4rem; }
 
 .soluciones {
   color: black;
@@ -197,6 +204,20 @@ footer {
   .nosotros3 img {
     width: 100%;
     height: auto; }
+
+.mapafondo {
+  background-color: rgba(255, 255, 255, 0.755); }
+
+.mapa {
+  align-items: center;
+  color: black;
+  margin: auto;
+  padding: 10px; }
+  .mapa .mapa__iframe iframe {
+    max-width: 100%;
+    max-height: 100%;
+    width: 30rem;
+    height: 25rem; }
 
 @media (min-width: 361px) and (max-width: 768px) {
   h1 {

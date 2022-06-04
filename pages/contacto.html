@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="formulario de contacto, contactate con nosotros.">
-    <meta name="keywords" content="business Intelligence informacion mercado marketing formulario contacto">
+    <meta name="keywords" content="business Intelligence informacion mercado marketing formulario contacto Ubicación">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/pruebacss.css">
+    <link rel="shortcut icon" href="/images/favicon.png">
     <title>ITS business Intelligence</title>
 </head>
 <body>
@@ -47,37 +48,54 @@
                 </div>
             </nav>
             </header>
+
         <section>
                 <div class="row contacto">
-                    <div id="titulo-formulario" class="text-center mb-4">
+                    <div id="titulo-formulario" class="text-center mb-4" data-aos="fade-up" data-aos-duration="3000">
                         <h1 class="m-3"> Formulario de contacto</h2>
                         <p>Estamos para mejorar sus negocios</p>
                     </div>
-                    <form id="contenedor-formulario" class="">
+                    <form id="contenedor-formulario" class="" data-aos="fade-up" data-aos-duration="3000">
                         <div class="mb-3">
-                            <label for="nombrecompleto" class="form-label">Nombre Completo</label>
+                            <label for="nombrecompleto" class="form-label" data-aos="fade-up" data-aos-duration="3000">Nombre Completo</label>
                             <input type="text" class="form-control" required>
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label">Direccion de Email</label>
+                            <label for="email" class="form-label" data-aos="fade-up" data-aos-duration="3000">Direccion de Email</label>
                             <input type="email" class="form-control"  required>
                         </div>
                         <div class="mb-3">
-                            <label for="telefono" class="form-label">Telefono</label>
+                            <label for="telefono" class="form-label" data-aos="fade-up" data-aos-duration="3000">Telefono</label>
                             <input type="number" class="form-control" required >
                         </div>
                         <div class="mb-3">
-                            <label for="comentario" class="form-label">Comentario</label>
+                            <label for="comentario" class="form-label" data-aos="fade-up" data-aos-duration="3000">Comentario</label>
                             <textarea class="form-control" rows="5" placeholder="Deje su consulta aqui" required></textarea>
                         </div>
                         <div class="mb-3 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-outline-light btn-lg"> Enviar </button>
+                            <button type="submit" class="btn btn-outline-light btn-lg" data-aos="fade-up" data-aos-duration="3000"> Enviar </button>
                         </div>
                     </form>
-                </div> 
-        </section> 
+                    <div class="mapafondo">
+                        <div class="row mapa text-center justify-content-center w-75">
+                            <div class="col-md-6 col-sm-12 mapa__iframe">
+                                <iframe  data-aos="fade-right" data-aos-duration="3000" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.1205676947625!2d-80.2974399847496!3d25.783686583626793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b9c16b7d065f%3A0xdb62cb736bb39687!2sInternational%20Business%20Club!5e1!3m2!1ses-419!2sar!4v1654045846319!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="col-md-6 col-sm-12 text-start" data-aos="fade-left" data-aos-duration="3000">
+                                <h4> Ubicación: </h4>
+                                <p>International Business Club</p>
+                                <p>Miami, Estados Unidos</p>
+                                <p>6101 Blue Lagoon Dr</p>
+                                <p>Numero de contacto: +54 9 11 5699 4215</p>
+                                <p>Urrutyp@intellitradestore.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <footer>
-            <div class="row justify-content-center align-items-center text-center">
+            <div class="row justify-content-center align-items-center text-center p-1" data-aos="fade-up" data-aos-duration="2000">
                 <div class="d-flex flex-column col-lg-4 col-sm-12">
                     <img src="../images/itslogo2.png" alt="logotipo" width="240" height="65">
                     <span class="text-center"> Somos una empresa que se dedicada a integrar la tecnologia a los negocios</span> 
