@@ -15,15 +15,21 @@ formRegistro.addEventListener('submit', (e) => {
 
     const datos = {
 
-        nombre,
-        email,
-        telefono,
-        comentario
-    }
+        usuario: nombre,
+        mail: email,
+        telefono: telefono,
+        comentario: comentario
+    };
 
     datitos.push(datos);
 
     console.log(datitos);
+
+    localStorage.setItem('formularioContacto', JSON.stringify(datos));
+
+    let datosFormulario = JSON.parse(localStorage.getItem('formularioContacto'));
+    
+    console.log(datosFormulario);
 
 } );
 
@@ -91,3 +97,10 @@ comentario.addEventListener('blur', () => {
     }
 
 })
+
+
+
+
+
+
+
