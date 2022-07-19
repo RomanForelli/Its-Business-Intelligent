@@ -31,7 +31,7 @@ formRegistro.addEventListener('submit', (e) => {
     
     console.log(datosFormulario);
 
-    if ( datos.usuario != '' && datos.mail !='' && datos.telefono != '' && datos.comentario != '') {
+    datos.usuario != '' && datos.mail !='' && datos.telefono != '' && datos.comentario != '' ?
 
         Swal.fire({
             title: 'Genial!',
@@ -39,7 +39,7 @@ formRegistro.addEventListener('submit', (e) => {
             icon: 'success',
             confirmButtonText: 'Aceptar'
         })
-    } else {
+    :
 
         Swal.fire({
             title: 'Error!',
@@ -47,7 +47,7 @@ formRegistro.addEventListener('submit', (e) => {
             icon: 'error',
             confirmButtonText: 'Reintentar'
         })
-    }
+    
 
     
 
