@@ -31,6 +31,26 @@ formRegistro.addEventListener('submit', (e) => {
     
     console.log(datosFormulario);
 
+    if ( datos.usuario != '' && datos.mail !='' && datos.telefono != '' && datos.comentario != '') {
+
+        Swal.fire({
+            title: 'Genial!',
+            text: 'Formulario enviado con exito!',
+            icon: 'success',
+            confirmButtonText: 'Aceptar'
+        })
+    } else {
+
+        Swal.fire({
+            title: 'Error!',
+            text: 'Formulario No enviado, revise los datos ingresados',
+            icon: 'error',
+            confirmButtonText: 'Reintentar'
+        })
+    }
+
+    
+
 } );
 
 const nombre = document.getElementById('nombre');
@@ -97,8 +117,6 @@ comentario.addEventListener('blur', () => {
     }
 
 })
-
-
 
 
 
